@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fruit Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Fruit Quiz</h1>
+      <p id="main">In this quiz you will be prompted with several questions about fruit you will have 30 seconds to answer them. Good Luck!</p>
+      <form hidden id="form">
+        <label>Initials: <input type="text" id="initials"></label>
+        <br><br>
+        <button type="submit">Submit form</button>
+      </form>
+      <p id="log"></p>
+      <div id="choices">
+
+        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+
+        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+
+        <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+
+        <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+
+    </div>
+    <p id="answerCheck"></p>
+      <p id="start"></p>
+      <h3 id="countdown"></h3>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
