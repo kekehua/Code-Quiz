@@ -15,7 +15,7 @@ Viewing the pages is as simple as going to the deployed link below!
 
 ## Links
 - [GitHub repository](https://github.com/kekehua/Code-Quiz)
-- [Deployed application]( https://kekehua.github.io/Code-Quiz/)
+- [Deployed application](https://kekehua.github.io/Code-Quiz/)
 
 ## Screenshots
 
